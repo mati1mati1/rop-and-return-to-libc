@@ -1,0 +1,4 @@
+I find the Exit fun address in the gdb and put the addrest in addresses.py 
+and then in the get_arg
+i get the address form addresses.py by using address.
+and pack the a*131 (to fill the buffer ) + system_addres + exit_address + bin_sh addres + exit code

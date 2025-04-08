@@ -1,0 +1,3 @@
+I am searching for pop ebp, pop esp, and add esp, 4 gadgets using GadgetSearch.find() because these gadgets are necessary for manipulating the base pointer and stack pointer.
+ after I found the gadgets I am  constructing the payload with 131 bytes of padding, followed by the addresses and gadgets in the required order to control the execution flow and achieve the desired outcome.
+The payload, constructed to move 1 to auth, override it, and return to the original function, resulting in Victory!, is returned as a bytes object for use in the sudo program.

@@ -1,0 +1,1 @@
+after try manule and look at the c code i realsy that by sending password with 140 will cause a sgmantion fault so this what i did

@@ -1,0 +1,4 @@
+I find the system addres and the "bin/sh" string in the gdb and put the addrest in addresses.py 
+and then in the get_arg
+i get the address form addresses.py by using address.
+and pack the a*131 (to fill the buffer ) + system_addres + damy addrees(for the return) + bin_sh addres
